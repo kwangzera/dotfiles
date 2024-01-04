@@ -14,3 +14,5 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 ## Organize later
 
 - Preferred font: `~/.fonts/Source_Code_Pro`
+- Syncthing
+- Wakatime
