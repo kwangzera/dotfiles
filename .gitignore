@@ -1,1 +1,2 @@
-.myconf
+# Ignore Git bare repository that will track our files.
+.myconf/
