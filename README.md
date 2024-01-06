@@ -13,7 +13,8 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 
 ## Organize later
 
-- Preferred font: `~/.fonts/Source_Code_Pro`
+- Preferred font: `~/.fonts/ttf` (Hack)
 - Syncthing
 - Wakatime
 - Zathura
+- Kitty
