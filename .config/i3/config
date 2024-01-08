@@ -202,4 +202,5 @@ gaps inner 5px
 # for a total gap of 10px to the screen edges, and 5px between windows.
 
 # Launch Flameshot with PrtSc
-bindsym Print exec "flameshot gui"
+bindsym $mod+shift+s exec "flameshot gui"
+bindsym PrtSc exec "flameshot gui"
