@@ -44,6 +44,8 @@ call plug#begin()
 Plug 'lervag/vimtex'
 " https://github.com/wakatime/vim-wakatime
 Plug 'wakatime/vim-wakatime'
+" https://github.com/iamcco/markdown-preview.nvim
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 
 call plug#end()
 " You can revert the settings after the call like so:
