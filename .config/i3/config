@@ -201,6 +201,6 @@ gaps inner 5px
 # Configure an additional 5px of extra space to the screen edges,
 # for a total gap of 10px to the screen edges, and 5px between windows.
 
-# Launch Flameshot with PrtSc
+# Launch Flameshot with Win+Shift+S and PrtSc
 bindsym $mod+shift+s exec "flameshot gui"
-bindsym PrtSc exec "flameshot gui"
+bindsym Print exec "flameshot gui"
