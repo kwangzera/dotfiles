@@ -1,0 +1,3 @@
+# To use vi mode in Bash and any other tool that uses GNU Readline, such as
+# the MySQL command line, you need only put this into your .inputrc file
+set editing-mode vi
