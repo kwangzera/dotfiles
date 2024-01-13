@@ -84,3 +84,14 @@ let maplocalleader = ","
 set t_Co=256
 " Set the colorscheme
 colorscheme zenburn
+
+" https://github.com/iamcco/markdown-preview.nvim
+" How can I pass CLI options to the browser, like opening in a new window?
+function OpenMarkdownPreview (url)
+	execute "silent ! firefox --new-window " . a:url
+endfunction
+let g:mkdp_browserfunc = 'OpenMarkdownPreview'
+
+" https://github.com/iamcco/markdown-preview.nvim
+" Why is the synchronised scrolling lagging?
+set updatetime=50
