@@ -146,3 +146,10 @@ alias vim=nvim
 # https://www.atlassian.com/git/tutorials/
 # Smart dotfile tracking alias for bare Git repo
 alias config='/usr/bin/git --git-dir=/home/kevin/.myconf/ --work-tree=/home/kevin'
+
+# Nim installation
+# choosenim-init: ChooseNim installed in /home/kevin/.nimble/bin
+# choosenim-init: You must now ensure that the Nimble bin dir is in your PATH.
+# choosenim-init: Place the following line in the ~/.profile or ~/.bashrc file.
+# choosenim-init:     export PATH=/home/kevin/.nimble/bin:$PATH
+export PATH=/home/kevin/.nimble/bin:$PATH
