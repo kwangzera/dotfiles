@@ -204,3 +204,7 @@ gaps inner 5px
 # Launch Flameshot with Win+Shift+S and PrtSc
 bindsym $mod+shift+s exec "flameshot gui"
 bindsym Print exec "flameshot gui"
+
+# Activate boomer
+# https://github.com/tsoding/boomer
+bindsym $mod+b exec "boomer"
