@@ -1786,7 +1786,6 @@ resize_in_steps yes
 
 #:     map f1 launch_tab vim
 #:     map f2 launch_tab emacs
-map super+shift+enter launch --cwd=current --type=os-window
 
 #: Similarly, to alias kitten invocation::
 
