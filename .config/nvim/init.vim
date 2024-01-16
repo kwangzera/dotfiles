@@ -46,6 +46,8 @@ Plug 'lervag/vimtex'
 Plug 'wakatime/vim-wakatime'
 " https://github.com/iamcco/markdown-preview.nvim
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+" https://github.com/preservim/nerdcommenter
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 " You can revert the settings after the call like so:
@@ -95,3 +97,13 @@ let g:mkdp_browserfunc = 'OpenMarkdownPreview'
 " https://github.com/iamcco/markdown-preview.nvim
 " Why is the synchronised scrolling lagging?
 set updatetime=50
+
+" https://vi.stackexchange.com/questions/454/whats-the-simplest-way-to-strip-trailing-whitespace-from-all-lines-in-a-file
+fun! TrimWhitespace()
+    let l:save = winsaveview()
+    keeppatterns %s/\s\+$//ge
+    call winrestview(l:save)
+endfun
+
+" Dont trim whitespace on save to avoid messing with binary files
+noremap <Leader>w :call TrimWhitespace()<CR>
