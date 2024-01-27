@@ -8,12 +8,13 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 
 |Duration|Distro|
 |-|-|
+|May 2022 - May 2023|Ubuntu (WSL)|
 |May 2023 - May 2023|Ubuntu|
 |May 2023 - Present|Linux Mint|
 
 ## Organize later
 
-- Preferred font: `~/.fonts/ttf` (Hack)
+- Preferred font: Source Code Pro
 - Syncthing
 - Wakatime
 - Zathura
