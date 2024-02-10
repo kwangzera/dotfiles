@@ -228,3 +228,6 @@ mode "$mode_system" {
 }
 
 bindsym $mod+q mode "$mode_system"
+
+# start firefox
+bindsym $mod+Shift+F exec firefox
