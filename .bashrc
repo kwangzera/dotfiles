@@ -153,3 +153,6 @@ alias config='/usr/bin/git --git-dir=/home/kevin/.myconf/ --work-tree=/home/kevi
 # choosenim-init: Place the following line in the ~/.profile or ~/.bashrc file.
 # choosenim-init:     export PATH=/home/kevin/.nimble/bin:$PATH
 export PATH=/home/kevin/.nimble/bin:$PATH
+
+# Ranger alias
+alias ra='. ranger'
