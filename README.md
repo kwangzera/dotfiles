@@ -10,7 +10,8 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 |-|-|
 |May 2022 - May 2023|Ubuntu (WSL)|
 |May 2023 - May 2023|Ubuntu|
-|May 2023 - Present|Linux Mint|
+|May 2023 - May 2024|Linux Mint|
+|May 2024 - Present|Arch Linux|
 
 ## Organize later
 
