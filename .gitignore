@@ -1,2 +1,2 @@
 # Ignore Git bare repository that will track our files.
-dotfiles/
+.dotfiles/
