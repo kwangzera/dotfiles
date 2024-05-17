@@ -69,3 +69,8 @@ bindkey "$terminfo[kcbt]" reverse-menu-complete
 
 # Alias config which we will use instead of the regular git when we want to interact with our configuration repository.
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+# EXCEPTION
+# If you are not connecting via SSH, or otherwise do not have the SSH_TTY environment variable set, you must set the GPG_TTY environment variable before running GCM. The easiest way to do this is by adding the following to your profile (~/.bashrc, ~/.profile etc):
+# Updated Arch system and somehow doing this in .proflie forces the pinentry to be pushed into the actual tty and thus cannot be accessed in Sway
+export GPG_TTY=$(tty)
