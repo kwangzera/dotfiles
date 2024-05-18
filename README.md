@@ -16,6 +16,7 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 ## Software
 
 Application launcher: Wofi
+Clipboard manager: wl-clipboard
 
 ## Organize later
 
