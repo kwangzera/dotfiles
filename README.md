@@ -13,6 +13,10 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 |May 2023 - May 2024|Linux Mint|
 |May 2024 - Present|Arch Linux|
 
+## Software
+
+Application launcher: Wofi
+
 ## Organize later
 
 - Preferred font: Source Code Pro
