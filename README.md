@@ -20,3 +20,4 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 - Wakatime
 - Zathura
 - Kitty
+- Port over stuff from https://arewewaylandyet.com/
