@@ -13,9 +13,11 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 |May 2023 - May 2024|Linux Mint|
 |May 2024 - Present|Arch Linux|
 
-## Are we Wayland yet???
+## Are we Wayland yet?
 
-Goodies:
+Mostly...
+
+OK, but where is my:
 
 - Application Launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
 - Clipboard Manager: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
