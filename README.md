@@ -13,11 +13,14 @@ A smarter way of whitelisting dotfiles in the `$HOME` directory with a bare Git 
 |May 2023 - May 2024|Linux Mint|
 |May 2024 - Present|Arch Linux|
 
-## Software
+## Are we Wayland yet???
 
-Application launcher: Wofi
-Clipboard manager: wl-clipboard
-Document viewer: zathura
+Goodies:
+
+- Application Launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
+- Clipboard Manager: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+- Document Viewer: [zathura](https://pwmt.org/projects/zathura/)
+- Printing System: [OpenPrinting CUPS](https://pwmt.org/projects/zathura/)
 
 ## Organize later
 
