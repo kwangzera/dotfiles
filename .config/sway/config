@@ -24,7 +24,7 @@ set $menu wofi --show=drun | xargs swaymsg exec --
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg ~/pictures/wallpapers/mark-kirkpatrick-mk-landscape-05.jpg fill
+output * bg ~/Pictures/wallpapers/mark-kirkpatrick-mk-landscape-05.jpg fill
 #
 # Example configuration:
 #
@@ -246,7 +246,7 @@ exec /usr/lib/geoclue-2.0/demos/agent
 exec gammastep -c $HOME/.config/gammastep/config.ini
 
 # Selection screenshot
-bindsym $mod+Shift+s exec 'GRIM_SLURP_SS=screenshot_$(date +"%m-%d-%Y_%H-%M-%S_%N").png; grim -l 0 -g "$(slurp)" ~/pictures/screenshots/$GRIM_SLURP_SS; wl-copy < ~/pictures/screenshots/$GRIM_SLURP_SS'
+bindsym $mod+Shift+s exec 'GRIM_SLURP_SS=screenshot_$(date +"%m-%d-%Y_%H-%M-%S_%N").png; grim -l 0 -g "$(slurp)" ~/Pictures/screenshots/$GRIM_SLURP_SS; wl-copy < ~/Pictures/screenshots/$GRIM_SLURP_SS'
 
 # Open Nautilus as floating window
 for_window [app_id="Nautilus"] floating enable
