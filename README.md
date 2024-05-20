@@ -23,6 +23,8 @@ OK, but where is my:
 - Clipboard Manager: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 - Document Viewer: [zathura](https://pwmt.org/projects/zathura/)
 - Printing System: [OpenPrinting CUPS](https://pwmt.org/projects/zathura/)
+- Calculator: [Qalculate!](http://qalculate.github.io/)
+- File Syncing Tool: [Syncthing](http://qalculate.github.io/)
 
 ## Organize later
 
