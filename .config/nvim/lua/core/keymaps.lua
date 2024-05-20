@@ -13,7 +13,7 @@ vim.o.listchars =  'tab:→ ,trail:·,extends:»,precedes:«'
 
 -- Tab sizes and such
 vim.o.textwidth = 78
-vim.o.noexpandtab = true
+vim.o.expandtab = false
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
 
