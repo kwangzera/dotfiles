@@ -39,11 +39,12 @@ output * bg ~/Pictures/wallpapers/mark-kirkpatrick-mk-landscape-05.jpg fill
 # Then lock the screen
 # No action within 5 minutes, suspend the computer
 #
-exec swayidle -w \
-         timeout 290 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-         timeout 300 'swaylock -feFl' \
-         timeout 600 'systemctl suspend' \
-         before-sleep 'swaylock -feFl -c #00ff00' \
+# exec swayidle -w \
+#          timeout 290 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+#          timeout 300 'swaylock -feFl' \
+#          timeout 600 'systemctl suspend' \
+#          before-sleep 'swaylock -feFl -c #00ff00' \
+exec swayidle -w timeout 500 'systemctl suspend'
 
 ### Input configuration
 #
