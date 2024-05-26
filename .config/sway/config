@@ -224,7 +224,8 @@ xwayland disable
 
 # Remap caps lock and escape
 input "type:keyboard" {
-    xkb_options caps:swapescape
+    xkb_layout us,us(dvp)
+	xkb_options grp:toggle,caps:swapescape
 }
 
 # Gaps
