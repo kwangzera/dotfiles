@@ -44,7 +44,7 @@ output * bg ~/Pictures/wallpapers/mark-kirkpatrick-mk-landscape-05.jpg fill
 #          timeout 300 'swaylock -feFl' \
 #          timeout 600 'systemctl suspend' \
 #          before-sleep 'swaylock -feFl -c #00ff00' \
-exec swayidle -w timeout 500 'systemctl suspend'
+exec swayidle -w timeout 600 'systemctl suspend'
 
 ### Input configuration
 #
